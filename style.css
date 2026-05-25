@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    text-align: center;
+   background: #e0ffcd; 
+}
+
+.instruction{
+     text-align: center;
+    background: #fdffcd; 
+}
+
+.instruction ol{
+    text-align: left;
+}
+
+.slam-form{
+    background: #ffebbb; 
+    width: 70%;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 15px;
+}
+
+.slam-form label{
+    font-size: 20px;
+}
+
+.slam-form input,
+.slam-form textarea,
+.slam-form select{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+.slam-form textarea{
+    height: 100px;
+}
+
+.slam-form button{
+    background: #ffcab0; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.feedback{
+     text-align: center;
+    	background: #ffcab0; 
+}
+
+.response-card{
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Friendship Memory</title>
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <h1>Welcome to the Digital Slam Book</h1>
+
+        <p>
+            "True friends are like diamonds — bright, beautiful,
+            valuable, and always in style." — Nicole Richie
+        </p>
+
+        <button>Fill the Slam Book</button>
+
+    </section>
+
+
+    <section class="instruction">
+
+        <h2>Before you begin</h2>
+
+        <p>
+            This digital slam book is a small collection of memories,
+            thoughts, and chaos from friends 😭
+        </p>
+
+        <h2>Few things before you start</h2>
+
+        <ol>
+            <li>Answer honestly</li>
+            <li>Keep it fun</li>
+            <li>Optional anonymous mode</li>
+            <li>Responses may be saved</li>
+            <li>Take your time</li>
+        </ol>
+
+    </section>
+
+
+    <form class="slam-form">
+
+        <label for="name">Your Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+        <label for="known">Since when do we know each other?</label><br>
+        <input type="text" id="known"
+        placeholder="School, college, childhood, etc."><br><br>
+
+        <label for="relation">How do we know each other?</label><br>
+
+        <select id="relation">
+
+            <option value="">Select your relation</option>
+
+            <option value="Friend">Friend</option>
+
+            <option value="Best Friend">Best Friend</option>
+
+            <option value="College Friend">College Friend</option>
+
+            <option value="PG Mate">PG Mate</option>
+
+            <option value="Roommate">Roommate</option>
+
+            <option value="Sister">Sister</option>
+
+            <option value="Online Friend">Online Friend</option>
+
+            <option value="Chaos Partner">
+                Chaos Partner 😭
+            </option>
+
+        </select><br><br>
+
+
+        <label for="first-impression">First impression of me?</label><br>
+
+        <textarea id="first-impression"
+        placeholder="Be honest 😭"></textarea><br><br>
+
+
+        <label for="like">
+            One thing you like about me
+        </label><br>
+
+        <textarea id="like"
+        placeholder="Something sweet maybe ✨"></textarea><br><br>
+
+
+        <label for="annoying-habit">
+            One habit of mine that annoys you
+        </label><br>
+
+        <textarea id="annoying-habit"
+        placeholder="Expose me respectfully 😭"></textarea><br><br>
+
+
+        <label for="one-word">
+            Describe me in one word
+        </label><br>
+
+        <input type="text"
+        id="one-word"
+        placeholder="Crazy? Kind? Chaotic?"><br><br>
+
+
+        <label for="secret">
+            What’s something you never told me?
+        </label><br>
+
+        <textarea id="secret"
+        placeholder="This is your chance 👀"></textarea><br><br>
+
+
+        <label for="role">
+            What role do I play in your life?
+        </label><br>
+
+        <textarea id="role"
+        placeholder="Friend, therapist, clown...?"></textarea><br><br>
+
+
+        <label for="funny">
+            My funniest habit
+        </label><br>
+
+        <input type="text"
+        id="funny"
+        placeholder="Spill the truth 😭"><br><br>
+
+
+        <label>
+            <input type="checkbox">
+            Submit anonymously
+        </label>
+
+        <br><br>
+
+        <button type="submit">
+            Save the Memory 💌
+        </button>
+
+        <p id="success"></p>
+
+    </form>
+
+
+    <!-- FIXED SECTION -->
+    <section id="responses"></section>
+
+
+    <section class="feedback">
+
+        <h2>Quick Feedback ✨</h2>
+
+        <form>
+
+            <label>
+                Did you enjoy filling this slam book?
+            </label><br>
+
+            <input type="radio"
+            id="enjoy-yes"
+            name="enjoy">
+
+            <label for="enjoy-yes">Yes</label>
+
+            <input type="radio"
+            id="enjoy-no"
+            name="enjoy">
+
+            <label for="enjoy-no">No</label>
+
+            <br><br>
+
+
+            <label>
+                Would you fill something like this again?
+            </label><br>
+
+            <input type="radio"
+            id="again-yes"
+            name="again">
+
+            <label for="again-yes">
+                Definitely 😭
+            </label>
+
+            <input type="radio"
+            id="again-no"
+            name="again">
+
+            <label for="again-no">
+                Maybe not
+            </label>
+
+            <br><br>
+
+
+            <label for="suggestion">
+                Any suggestion for me?
+            </label><br>
+
+            <textarea id="suggestion"
+            placeholder="Tell me anything ✨"></textarea>
+
+        </form>
+
+    </section>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
